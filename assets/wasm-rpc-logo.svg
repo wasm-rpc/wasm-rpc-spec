@@ -1,0 +1,22 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="220" height="220"
+     xmlns="http://www.w3.org/2000/svg">
+<style>
+    .foreground { fill: #F23218 }
+    text {
+      font-family: "futura";
+      fill: #fff;
+    }
+  </style>
+  <defs>
+    <mask id="hole">
+      <rect width="100%" height="100%" fill="white"/>
+      <circle r="20" cx="100" cy="0" fill="black"/>
+    </mask>
+  </defs>
+  <rect r="100" width="200" height="200" mask="url(#hole)" class="foreground" />
+  <circle r="20" cx="100" cy="200" class="foreground" />
+  <text x="20" y="90" font-size="27px">Wasm</text>
+  <text x="50" y="175" font-weight="bold" font-size="70px">RPC</text>
+</svg>
